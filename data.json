@@ -1,0 +1,74 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "code": "20020001",
+      "fullname": "Trần Mạnh",
+      "dateOfBirth": "2002-06-05",
+      "homeTown": "Hải Phòng"
+    },
+    {
+      "id": 3,
+      "code": "20020002",
+      "fullname": "Nguyễn Vũ",
+      "dateOfBirth": "2002-05-04",
+      "homeTown": "Bắc Giang"
+    },
+    {
+      "id": 4,
+      "code": "20020003",
+      "fullname": "Hoàng Quang",
+      "dateOfBirth": "2002-09-08",
+      "homeTown": "Thái Nguyên"
+    },
+    {
+      "id": 5,
+      "code": "20020004",
+      "fullname": "Đỗ Hiếu",
+      "dateOfBirth": "2002-11-10",
+      "homeTown": "Nam Định"
+    },
+    {
+      "id": 6,
+      "code": "20020005",
+      "fullname": "Trần Minh Quang",
+      "dateOfBirth": "2002-09-15",
+      "homeTown": "Hà Nội"
+    },
+    {
+      "id": 7,
+      "code": "20020006",
+      "fullname": "Nguyễn Long",
+      "dateOfBirth": "2002-12-12",
+      "homeTown": "Nam Định"
+    },
+    {
+      "id": 8,
+      "code": "20020008",
+      "fullname": "Nguyễn Hùng",
+      "dateOfBirth": "2002-03-10",
+      "homeTown": "Hà Tĩnh"
+    },
+    {
+      "id": 9,
+      "code": "20020009",
+      "fullname": "Lê Tiến",
+      "dateOfBirth": "2002-12-03",
+      "homeTown": "Nghệ An"
+    },
+    {
+      "id": 10,
+      "code": "20020010",
+      "fullname": "Đinh Ngọc Đức ",
+      "dateOfBirth": "2002-01-03",
+      "homeTown": "Bắc Cạn"
+    },
+    {
+      "id": 11,
+      "code": "20020011",
+      "fullname": "Phạm Minh",
+      "dateOfBirth": "2002-02-03",
+      "homeTown": "Thanh Hóa"
+    }
+  ]
+}
