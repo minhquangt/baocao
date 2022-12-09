@@ -105,7 +105,7 @@ function App() {
                     });
                 }}
             >
-                Add New
+                Thêm mới
             </button>
             <StudentForm
                 student={student}

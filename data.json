@@ -3,7 +3,7 @@
     {
       "id": 1,
       "code": "20020001",
-      "fullname": "Trần Mạnh",
+      "fullname": "Trần Văn Mạnh",
       "dateOfBirth": "2002-06-05",
       "homeTown": "Hải Phòng"
     },
@@ -38,7 +38,7 @@
     {
       "id": 7,
       "code": "20020006",
-      "fullname": "Nguyễn Long",
+      "fullname": "Phạm Bích Ngọc",
       "dateOfBirth": "2002-12-12",
       "homeTown": "Nam Định"
     },
