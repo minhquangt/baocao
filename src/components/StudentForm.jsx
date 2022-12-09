@@ -118,16 +118,20 @@ function StudentForm({
                                 maxLength={100}
                             />
                         </div>
+                        {student.id ? (
+                            <button
+                                type="submit"
+                                className="btn btn-primary"
+                                data-bs-dismiss="modal"
+                            >
+                                Cập nhật
+                            </button>
+                        ) : (
+                            <button type="submit" className="btn btn-primary">
+                                Thêm mới
+                            </button>
+                        )}
                     </form>
-                    <div className="modal-footer">
-                        <button
-                            type="submit"
-                            className="btn btn-primary"
-                            data-bs-dismiss={student.id ? 'modal' : ''}
-                        >
-                            {student.id ? 'Cập nhật' : 'Thêm mới'}
-                        </button>
-                    </div>
                 </div>
             </div>
         </div>

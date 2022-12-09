@@ -76,8 +76,12 @@ function App() {
     };
 
     const handleDeleteStudent = async (id) => {
-        await axios.delete(`http://localhost:3000/students/${id}`);
-        setStatus('delete' + Date.now());
+        if (window.confirm('Bạn có chắc chắn muốn xóa không?') === true) {
+            await axios.delete(`http://localhost:3000/students/${id}`);
+            setStatus('delete' + Date.now());
+        } else {
+            return;
+        }
     };
 
     useEffect(() => {
@@ -89,12 +93,12 @@ function App() {
     }, [status]);
 
     return (
-        <div className='container'>
+        <div className="container">
             <button
-                type='button'
-                className='btn btn-primary'
-                data-bs-toggle='modal'
-                data-bs-target='#exampleModal'
+                type="button"
+                className="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
                 onClick={() => {
                     setStudent({
                         id: '',
